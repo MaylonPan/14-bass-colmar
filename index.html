@@ -4,8 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>14-bass-colmar</title>
+    <script src="https:cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>14-bass-colmar</h1>
+<body class="text-[#4A4A4A] font-Inter">
+    <nav class="h-[64px] fixed top-0 w-full bg-white flex items-center px-[24px] justify-between">
+        <section>
+            <img src="/images/ic-logo.svg">
+        </section>
+        <section>
+            <img src="/images/ic-on-campus.svg">
+        </section>
+        <section>
+            <img src="/images/ic-online.svg">
+        </section>
+        <section>
+            <img src="/images/ic-login.svg">
+        </section>
+    </nav>
+    <main>
+        <section class="grid bg-[#D8D8D8] grid-cols-1 max-w-full lg:grid-cols-10 items-center">
+            <div class="lg:w-[60vw] px-[24px] col-span-6 my-[32px]">
+            <img src="/images/banner.jpg" class="">
+            </div>
+            <article class="px-[16px] py-[32px] flex flex-col lg:w-[40vw] col-span-4">
+                <h1 class="font-bold text-[2rem] pb-[32px]">Learn something new everyday</h1>
+                <p class="text-[1.5rem] pb-[24px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="bg-[#4A4A4A] text-white py-[8px] mb-8 w-auto">Start here</button>
+            </article>
+        </section>
+        <section class="grid lg:grid-cols-10 grid-rows-4">
+            <article class="col-span-6 px-[24px] py-[32px] hidden sm:block">
+                <img src="/images/information-main.jpg">
+                <h2 class="font-bold text-[1.5rem] mt-[32px] mb-[24px]">It's Doesn't hurt to keep practicing</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla distinctio, necessitatibus quisquam rerum recusandae libero temporibus harum obcaecati maiores debitis?</p>
+                <p class="font-semibold mt-[32px]">Emanuel, Sr Strategist at Hiring.com</p>
+            </article>
+            <div class="lg:grid-rows-1 grid-cols-1 col-span-4">
+                <article class="p-[16px] mb-[16px] lg:grid grid-cols-12">
+                    
+                    <!--    รูปจอเล็ก   -->
+                    <div class="lg:hidden">
+                    <img src="/images/information-orientation-mobile.jpg" class="">
+                    </div>
+
+                    <!--    รูปจอใหญ่    -->
+                    <div class="hidden col-span-4 lg:block ">
+                        <img src="/images/information-orientation.jpg">
+                    </div>
+                    <div class="p-[16px] lg:col-span-8 items-center">
+                        <h3 class="text-[2rem] font-medium">Orientation date</h3>
+                        <p class="text-[#9B9B9B]">Tue 10/11 & Wed 10/12 : 8am-3pm.</p>
+                        <button class="text-[#4B8FE1]">Read more</button>
+                    </div>
+                </article>
+                <article class="p-[16px] mb-[16px]">
+                    <img src="/images/information-campus-mobile.jpg" class="">
+                    <div class="p-[16px]">
+                        <h3 class="text-[2rem] font-medium">Orientation date</h3>
+                        <p class="text-[#9B9B9B]">Tue 10/11 & Wed 10/12 : 8am-3pm.</p>
+                        <button class="text-[#4B8FE1]">Read more</button>
+                    </div>
+                </article>
+                <article class="p-[16px] mb-[16px]">
+                    <img src="/images/information-guest-lecture-mobile.jpg" class="">
+                    <div class="p-[16px]">
+                        <h3 class="text-[2rem] font-medium">Our guest lecture</h3>
+                        <p class="text-[#9B9B9B]">Join a keynote with Oliver Sack about music in medical treatment</p>
+                        <button class="text-[#4B8FE1]">Read more</button>
+                    </div>
+                </article>
+            </div>
+            </article>
+        </section>
+        <section>
+            <article class="p-[32px]">
+                <h2 class="font-bold text-center text-[2rem] mb-[16px]">
+                    Start Learning</h2>
+                <div class="font-semibold bg-[#D8D8D8] p-[16px] pb-[24px] mb-[8px]">
+                    Software engineering
+                </div>
+                <div class="font-semibold bg-[#D8D8D8] p-[16px] pb-[24px] mb-[8px]">
+                    Computer art
+                </div>
+                <div class="font-semibold bg-[#D8D8D8] p-[16px] pb-[24px] mb-[8px]">
+                    Design
+                </div>
+                <div class="font-semibold bg-[#D8D8D8] p-[16px] pb-[24px] mb-[8px]">
+                    Data
+                </div>
+                <div class="font-semibold bg-[#D8D8D8] p-[16px] pb-[24px] mb-[8px]">
+                    Business
+                </div>
+                <div class="font-semibold bg-[#D8D8D8] p-[16px] pb-[24px]">
+                    Marketing
+                </div>
+            </article>
+        </section>
+        <section>
+            <article class="mb-[24px]">
+                <h2 class="font-bold text-center text-[2rem] mt-[32px] mb-[16px]">Thesis exhibits</h2>
+                <div class="">
+                    <video src="/videos/thesis.mp4" controls></video>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class=" p-[16px]">
+        <p>&copy; 2016 Colmar Academy. All rights reserved</p>
+    </footer>
 </body>
 </html>
